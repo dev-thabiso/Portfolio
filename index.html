@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="fade-in">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <img src="profile.jpeg" alt="THABISO NKASHE" class="profile-img" />
+        <div class="about-text">
+          <h1>THABISO NKASHE</h1>
+          <p class="subtitle">Web Developer</p>
+          <p>
+           I'm a frontend developer with a passion for clean, functional design, specializing in HTML, CSS, and JavaScript. I focus on creating intuitive, user-friendly digital 
+           experiences and am currently sharpening my skills in React and Node.js, where I enjoy blending creativity with problem-solving to build meaningful web applications.
+          </p>
+          <div class="action-buttons">
+            <a href="Thabiso C.V.pdf" class="cv-download" download>Download CV</a>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/thabiso-nkashe-504597332" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/dev-thabiso" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:nkashethabiso14@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="fade-in compact-section">
+    <div class="container center-content">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" title="3 years">
+          <i class="fab fa-html5 skill-icon"></i>
+          <p>HTML5</p>
+          <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+        </div>
+        <div class="skill-card" title="1 year Months">
+          <i class="fab fa-css3-alt skill-icon"></i>
+          <p>CSS3</p>
+          <div class="skill-bar"><div class="skill-level" data-level="50%"></div></div>
+        </div>
+        <div class="skill-card" title="2 weeks experience">
+          <i class="fab fa-js skill-icon"></i>
+          <p>JavaScript</p>
+          <div class="skill-bar"><div class="skill-level" data-level="40%"></div></div>
+        </div>
+        <div class="skill-card" title="2 weeks experience">
+          <i class="fab fa-react skill-icon"></i>
+          <p>React</p>
+          <div class="skill-bar"><div class="skill-level" data-level="20%"></div></div>
+        </div>
+        <div class="skill-card" title="2 weeks experience">
+          <i class="fab fa-node-js skill-icon"></i>
+          <p>Node.js</p>
+          <div class="skill-bar"><div class="skill-level" data-level="10%"></div></div>
+        </div>
+        <div class="skill-card" title="1 year 2 Months">
+          <i class="fab fa-github skill-icon"></i>
+          <p>Git/GitHub</p>
+          <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="fade-in">
+    <div class="container center-content">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Quiz App</h3>
+          <div class="project-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <p>A responsive quiz app website with animations and clean interface. Built with semantic HTML and modern CSS techniques.</p>
+          <div class="project-links">
+            <a href="https://github.com/dev-thabiso" class="btn" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="https://dev-thabiso.github.io/Quiz-App/" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Expense Tracker</h3>
+          <div class="project-tags">
+            <span class="tag">HMTL5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <p>
+              A personal finance app with real-time balance calculation, persistent local storage, and a responsive interface for easy income and expense management
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/dev-thabiso" class="btn" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="https://dev-thabiso.github.io/Expense-Tracker/" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> THABISO NKASHE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
